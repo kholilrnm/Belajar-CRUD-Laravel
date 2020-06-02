@@ -3,3 +3,4 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/kholilboy/Belajar-CRUD-Laravel)
 
 # Belajar-CRUD-Laravel
+Repo ini berisi kode-kode CRUD (Create-Read-Update-Delete) Laravel 7.
