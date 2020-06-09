@@ -22,3 +22,6 @@ Route::get('/dashboard', 'BlogController@index');
 Route::get('/dashboard/{id}', 'BlogController@show');
 
 Route::get('/page1', 'BlogController@show');
+
+Route::get('/page2', 'BlogController@show');
+
