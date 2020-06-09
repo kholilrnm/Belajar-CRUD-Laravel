@@ -10,5 +10,7 @@
     <h1>Hello Kholil Blog 1</h1>
     <h2>{{ $dashboard }}</h2>
     <h2>{{ $wkwk }}</h2>
+
+    tes 123
 </body>
 </html>
