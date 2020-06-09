@@ -27,4 +27,4 @@ Route::get('/page2', 'BlogController@show');
 
 Route::get('/page3', 'BlogController@show');
 
-Route::get('/page2', 'BlogController@show');
+Route::get('/page4', 'BlogController@show');
