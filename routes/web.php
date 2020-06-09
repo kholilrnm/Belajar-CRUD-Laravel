@@ -25,3 +25,4 @@ Route::get('/page1', 'BlogController@show');
 
 Route::get('/page2', 'BlogController@show');
 
+Route::get('/page2', 'BlogController@show');
