@@ -8,9 +8,11 @@
 </head>
 <body>
     <h1>Hello Kholil Blog 1</h1>
-    <h2>{{ $dashboard }}</h2>
-    <h2>{{ $wkwk }}</h2>
-
+    <h2>{{ $nilai }}</h2>
+    <h2>{{ $users }}</h2>
+    @foreach ($dataArray as $item)
+        {{ $item }}
+    @endforeach
     tes 123
 </body>
 </html>
