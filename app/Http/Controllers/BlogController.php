@@ -13,6 +13,9 @@ class BlogController extends Controller
 
     public function show($id)
     {
-        return view('dashboard/show', ['dashboard' => $id, 'wkwk' => '123']);
+        $nilai = 'ini adalah nilainya ' . $id;
+        $users = "Kholilul Rachman NM";
+        $dataArray = ['ini array : kholil', 'rachman', 'nm'];
+        return view('dashboard/show', ['nilai' => $nilai, 'users' => $users, 'dataArray' => $dataArray]);
     }
 }
