@@ -9,12 +9,14 @@
 <body>
     <header>
         <nav>
-            <a href="">Home</a>
-            <a href="/dashboard">Blog</a>
+            <a href="/">Home</a>
+            <a href="/dashboard">Blog Dashboard</a>
         </nav>
     </header>
     @yield('content')
 
-    <footer>@copy Laravel 7 | 2020</footer>
+    <footer>
+        @copy Laravel 7 | 2020 Sekolah Koding
+    </footer>
 </body>
 </html>
