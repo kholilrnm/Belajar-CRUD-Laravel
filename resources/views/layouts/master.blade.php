@@ -13,10 +13,11 @@
             <a href="/dashboard">Blog Dashboard</a>
         </nav>
     </header>
+
     @yield('content')
 
     <footer>
-        @copy Laravel 7 | 2020 Sekolah Koding
+        &copy; Laravel 7 | 2020 Sekolah Koding
     </footer>
 </body>
 </html>
