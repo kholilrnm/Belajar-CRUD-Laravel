@@ -15,8 +15,8 @@
     </header>
 
     @yield('content')
-
-    <footer>
+    
+    <footer><br>
         &copy; Laravel 7 | 2020 Sekolah Koding
     </footer>
 </body>
