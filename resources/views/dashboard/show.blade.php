@@ -26,4 +26,11 @@
     <p>2. tanpa !!</p>
     {{ $unescaped123 }}
 
+    <p><br>Ini Data dari database crud_laravel</p>
+    @foreach ($getUsersDB as $data)
+        <li>{{ $data->username . $data->password }}</li>  {{-- bisa langsung di tag HTML --}}
+        {!! $tes !!}
+
+    @endforeach
+
 @endsection
