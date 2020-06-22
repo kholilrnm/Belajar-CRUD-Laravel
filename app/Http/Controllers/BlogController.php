@@ -23,7 +23,33 @@ class BlogController extends Controller
         $unescaped = '<script>alert("x")</script>';
         $unescaped123 = '<script>alert("x")</script>';
         $tes = '<br>';
+        
+        // Insert Data
+        // DB::table('users')->insert([
+        //     'username' => 'Dayle', 
+        //     'password' => '12345'
+        // ]);
+        // ========================= //
+
+        // Update Data
+        // DB::table('users')->where('username', 'Kholil')->update([
+        //     'username' => 'Kholilul Rachman NM', 
+        //     'password' => '123456789'
+        // ]);
+        
+        // ========================= //
+        // Delete Data
+        // DB::table('users')->where('id', '>', 3)->delete();
+
+        // Read Data
         $ambilData = DB::table('users')->get();
+        $ambilDataWhere = DB::table('users')->where('username', 'like','K%')->get();
+        // metode debug pake helper dd(nama variabel) -> buat cek kayak vardump bos di laravel
+
+        // dd($ambilDataWhere);
+
+        // ========================= //
+
 
         return view('dashboard/show', ['nilai' => $nilai,
                                         'users' => $users, 
@@ -31,7 +57,8 @@ class BlogController extends Controller
                                         'unescaped' => $unescaped, 
                                         'unescaped123' => $unescaped123,
                                         'getUsersDB' => $ambilData,
-                                        'tes' => $tes
+                                        'tes' => $tes,
+                                        'ambildata' => $ambilDataWhere
                                         ]);
     }
 }

@@ -33,4 +33,11 @@
 
     @endforeach
 
+    <p><br>Ambil data where database crud_laravel</p>
+    @foreach ($ambildata as $data)
+        <li>{{ $data->username . $data->password }}</li>  {{-- bisa langsung di tag HTML --}}
+        {!! $tes !!}
+
+    @endforeach
+
 @endsection
