@@ -7,6 +7,6 @@
     <h1>Hello Kholil Blog 1</h1>
     <h2>{{ $nilai }}</h2>
 
-    <p>Ini blog dashboard awal</p>
+    <p>Ini blog dashboard awal Anjay Mabar</p>
 
 @endsection
